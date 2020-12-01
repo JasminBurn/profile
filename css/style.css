@@ -1,6 +1,7 @@
 main{
     max-width:calc(75%);
     float:left;
+    border: 5px pink;
 }
 aside{
     max-width: calc(25%);
