@@ -1,13 +1,36 @@
-main{
+body {
+    font-family: 'Courier New', Courier, monospace
+}
+
+main {
     max-width:calc(75%);
     float:left;
-    border: 5px pink;
 }
-aside{
+aside {
     max-width: calc(25%);
     float: left;
     border-left: none;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
-footer{
+footer {
     clear:both;
 }
+img {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: coral;
+}
+a:visited {
+    color: peachpuff;
+}
+a:hover {
+    color: gray;
+}
+li {
+    padding: 5px 20px 5px 5px;
+    list-style-type: url(https://img.icons8.com/fluent-systems-regular/24/000000/butterfly.png);
+}
+
